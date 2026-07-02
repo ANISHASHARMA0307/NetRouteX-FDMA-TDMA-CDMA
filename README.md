@@ -1,127 +1,310 @@
-📡 NetRouteX – Multiple Access Simulator
-Interactive Visualization of FDMA, TDMA & CDMA
+# 📡 NetRouteX – Multiple Access Simulator
 
-NetRouteX is a web-based simulator designed to help students understand Multiple Access Techniques in Computer Networks through interactive visualization, numerical examples, and concept-based learning.
+> **An Interactive Web-Based Visualization of FDMA, TDMA & CDMA for Computer Networks**
 
-This project focuses on three key Medium Access Control (MAC) techniques:
-Frequency Division Multiple Access (FDMA)
-Time Division Multiple Access (TDMA)
-Code Division Multiple Access (CDMA)
+NetRouteX is an interactive educational web application designed to help students understand **Multiple Access Techniques** used in Computer Networks through **visual simulations, numerical calculations, and real-world analogies**.
 
-🚀 Live Demo
-👉 https://anishasharma0307.github.io/NetRouteX-FDMA-TDMA-CDMA/
+The simulator demonstrates how multiple users efficiently share a common communication channel using three fundamental Medium Access Control (MAC) techniques:
 
-🎯 Project Objectives
-Visualize how multiple users share a communication channel
-Demonstrate FDMA, TDMA, and CDMA interactively
-Provide step-by-step numerical understanding
-Strengthen conceptual clarity through examples
-Build an intuitive virtual lab tool for students
+* 🔵 Frequency Division Multiple Access (FDMA)
+* 🟢 Time Division Multiple Access (TDMA)
+* 🟣 Code Division Multiple Access (CDMA)
 
-📚 Techniques Covered
-🔵 1. Frequency Division Multiple Access (FDMA)
-FDMA divides the total available bandwidth into smaller frequency bands, assigning each user a unique frequency.
+---
 
-Key Points:
-Continuous transmission
-No time sharing
-Dedicated frequency per user
-Formula
-Bandwidth per user = Total Bandwidth / Number of Users
+## 🚀 Live Demo
 
-Example
-Users = 4, Bandwidth = 4000 Hz
-→ Each user gets 1000 Hz
+🌐 **Try it here:**
+https://anishasharma0307.github.io/NetRouteX-FDMA-TDMA-CDMA/
 
-Real-Life Analogy
-Different radio stations operating on separate frequencies
+---
 
-🟢 2. Time Division Multiple Access (TDMA)
-TDMA divides time into slots and allocates each user a specific time interval.
+# 🎯 Project Objectives
 
-Key Points:
-Same frequency shared
-Users transmit in turns
-Requires synchronization
-Formula
-Time per user = Total Time / Number of Users
+The primary goal of NetRouteX is to simplify complex networking concepts through interactive learning.
 
-Example
-Users = 4, Time = 20 ms
-→ Each user gets 5 ms
+### This project helps students to:
 
-Real-Life Analogy
-People speaking one-by-one in a meeting
+* 📡 Visualize how multiple users share a communication channel
+* 📊 Understand the working of FDMA, TDMA, and CDMA
+* 🧮 Perform numerical calculations automatically
+* 📚 Learn concepts through step-by-step explanations
+* 💡 Relate networking concepts with real-life examples
+* 🖥️ Experience a virtual networking laboratory
 
-🟣 3. Code Division Multiple Access (CDMA)
-CDMA allows all users to transmit simultaneously using unique codes.
+---
 
-Key Points:
-Same frequency and time
-Unique spreading codes
-High efficiency
-Concept
-C₁ × C₂ = 0
-C₁ × C₁ = N
+# 📚 Multiple Access Techniques
 
-Real-Life Analogy
-Multiple people speaking different languages in the same room
+## 🔵 Frequency Division Multiple Access (FDMA)
 
-✨ Features
-📊 Interactive Simulation
-FDMA frequency allocation visualization
-TDMA time-slot visualization
-CDMA concept demonstration
+FDMA divides the available bandwidth into multiple frequency bands, assigning each user a dedicated frequency channel.
 
-🧮 Numerical Calculation
-Bandwidth per user
-Time per user
-Logical explanation of results
+### Features
 
-📘 Learn Section
-Concept explanation
-Step-by-step working
-Real-life examples
-Embedded video
+* Dedicated frequency for every user
+* Continuous transmission
+* No time sharing
+* Simple implementation
 
-📖 Help Section
-Step-by-step usage guide
-Example workflow
+### Formula
 
-👨‍💻 Developed By Section
-Student details with images
-Faculty guide information
+Bandwidth per User = Total Bandwidth ÷ Number of Users
 
-🖥️ Technologies Used
-HTML5
-GitHub Pages
+### Example
 
-▶️ How to Run Locally
-Download or clone the repository
-Open index.html in any browser
+* Users = 4
+* Total Bandwidth = 4000 Hz
 
-🌐 Deployment
-This project is deployed using GitHub Pages.
+Bandwidth per User = **1000 Hz**
 
-👨‍💻 Developed By
-Erwin (24BYB1131)
-Anisha Sharma (24BYB1138)
-👨‍🏫 Guided By
-Dr. Swaminathan Annadurai
+### Real-Life Analogy
+
+📻 Different radio stations broadcasting on different frequencies.
+
+---
+
+## 🟢 Time Division Multiple Access (TDMA)
+
+TDMA allows multiple users to share the same frequency by assigning different time slots to each user.
+
+### Features
+
+* Same frequency shared
+* Users transmit one after another
+* Requires synchronization
+* Efficient bandwidth utilization
+
+### Formula
+
+Time per User = Total Time ÷ Number of Users
+
+### Example
+
+* Users = 4
+* Total Time = 20 ms
+
+Time per User = **5 ms**
+
+### Real-Life Analogy
+
+🗣️ People speaking one by one during a meeting.
+
+---
+
+## 🟣 Code Division Multiple Access (CDMA)
+
+CDMA allows all users to transmit simultaneously using unique spreading codes.
+
+### Features
+
+* Same frequency
+* Same time
+* Unique spreading code for each user
+* High channel efficiency
+* Better interference management
+
+### Concept
+
+For orthogonal codes,
+
+* C₁ × C₂ = 0
+* C₁ × C₁ = N
+
+### Real-Life Analogy
+
+🌍 Multiple people speaking different languages in the same room.
+
+---
+
+# ✨ Features
+
+## 📊 Interactive Visualization
+
+* FDMA Frequency Allocation Simulation
+* TDMA Time Slot Visualization
+* CDMA Working Demonstration
+
+## 🧮 Numerical Calculator
+
+Automatically calculates:
+
+* Bandwidth per User (FDMA)
+* Time per User (TDMA)
+
+with step-by-step explanations.
+
+## 📘 Learn Section
+
+Includes:
+
+* Detailed concept explanations
+* Working principles
+* Numerical examples
+* Real-life analogies
+* Embedded educational video
+
+## 📖 Help Section
+
+Provides:
+
+* Step-by-step instructions
+* Example workflow
+* User guidance
+
+## 👨‍💻 Developed By Section
+
+Displays:
+
+* Student information
+* Faculty guide details
+* Project credits
+
+---
+
+# 🖥️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* GitHub Pages
+
+---
+
+# 📂 Project Structure
+
+```text
+NetRouteX/
+│── index.html
+│── style.css
+│── script.js
+│── assets/
+│── images/
+│── README.md
+```
+
+---
+
+# ▶️ Run Locally
+
+Clone the repository
+
+```bash
+git clone https://github.com/anishasharma0307/NetRouteX-FDMA-TDMA-CDMA.git
+```
+
+Go to the project directory
+
+```bash
+cd NetRouteX-FDMA-TDMA-CDMA
+```
+
+Open the project
+
+```text
+Open index.html in any modern web browser.
+```
+
+No additional installation or dependencies are required.
+
+---
+
+# 🌐 Deployment
+
+This project is deployed using **GitHub Pages**.
+
+Live Website:
+
+https://anishasharma0307.github.io/NetRouteX-FDMA-TDMA-CDMA/
+
+---
+
+# 📸 Screenshots
+
+> Add screenshots of the following sections here:
+
+* 🏠 Home Page
+* 🔵 FDMA Simulation
+* 🟢 TDMA Simulation
+* 🟣 CDMA Simulation
+* 📘 Learn Section
+* 📖 Help Section
+
+Example:
+
+```markdown
+![Home](images/home.png)
+
+![FDMA](images/fdma.png)
+
+![TDMA](images/tdma.png)
+
+![CDMA](images/cdma.png)
+```
+
+---
+
+# 🎓 Academic Context
+
+This project was developed as part of the **Computer Networks Lab (BCSE308L)** at **VIT Chennai**.
+
+The objective of this project is to enhance conceptual understanding of Multiple Access Techniques through interactive visualization and simulation.
+
+---
+
+# 👨‍💻 Developed By
+
+### 👨‍💻 Students
+
+* **Erwin** (24BYB1131)
+* **Anisha Sharma** (24BYB1138)
+
+### 👨‍🏫 Faculty Guide
+
+**Dr. Swaminathan Annadurai**
+
+School of Computer Science Engineering and Technology
+
 VIT Chennai
 
-📚 References
-Behrouz A. Forouzan
-Data Communications and Networking
-https://www.geeksforgeeks.org/multiple-access-techniques/
-https://www.tutorialspoint.com/computer_networks
+---
 
-🎓 Academic Context
-This project was developed as part of Computer Networks Lab (BCSE308L) to visualize Multiple Access Techniques and enhance student learning.
+# 📚 References
 
-⭐ Support
-If you found this useful:
+* Behrouz A. Forouzan — *Data Communications and Networking*
+* https://www.geeksforgeeks.org/multiple-access-techniques/
+* https://www.tutorialspoint.com/computer_networks
 
-⭐ Star the repository
-🍴 Fork it
-📢 Share with others
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve the project:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+---
+
+# ⭐ Show Your Support
+
+If you found this project useful, please consider:
+
+⭐ Star this repository
+
+🍴 Fork this repository
+
+📢 Share it with others
+
+Your support motivates us to build more educational projects.
+
+---
+
+# 📄 License
+
+This project is developed for educational purposes under the **Computer Networks Lab** at **VIT Chennai**.
