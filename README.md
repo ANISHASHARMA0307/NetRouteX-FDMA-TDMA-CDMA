@@ -1,12 +1,13 @@
 📡 NetRouteX – Multiple Access Simulator
 Interactive Visualization of FDMA, TDMA & CDMA
+
 NetRouteX is a web-based simulator designed to help students understand Multiple Access Techniques in Computer Networks through interactive visualization, numerical examples, and concept-based learning.
 
 This project focuses on three key Medium Access Control (MAC) techniques:
-
 Frequency Division Multiple Access (FDMA)
 Time Division Multiple Access (TDMA)
 Code Division Multiple Access (CDMA)
+
 🚀 Live Demo
 👉 https://anishasharma0307.github.io/NetRouteX-FDMA-TDMA-CDMA/
 
@@ -16,12 +17,12 @@ Demonstrate FDMA, TDMA, and CDMA interactively
 Provide step-by-step numerical understanding
 Strengthen conceptual clarity through examples
 Build an intuitive virtual lab tool for students
+
 📚 Techniques Covered
 🔵 1. Frequency Division Multiple Access (FDMA)
 FDMA divides the total available bandwidth into smaller frequency bands, assigning each user a unique frequency.
 
-Key Points
-
+Key Points:
 Continuous transmission
 No time sharing
 Dedicated frequency per user
@@ -38,8 +39,7 @@ Different radio stations operating on separate frequencies
 🟢 2. Time Division Multiple Access (TDMA)
 TDMA divides time into slots and allocates each user a specific time interval.
 
-Key Points
-
+Key Points:
 Same frequency shared
 Users transmit in turns
 Requires synchronization
@@ -56,8 +56,7 @@ People speaking one-by-one in a meeting
 🟣 3. Code Division Multiple Access (CDMA)
 CDMA allows all users to transmit simultaneously using unique codes.
 
-Key Points
-
+Key Points:
 Same frequency and time
 Unique spreading codes
 High efficiency
@@ -73,27 +72,34 @@ Multiple people speaking different languages in the same room
 FDMA frequency allocation visualization
 TDMA time-slot visualization
 CDMA concept demonstration
+
 🧮 Numerical Calculation
 Bandwidth per user
 Time per user
 Logical explanation of results
+
 📘 Learn Section
 Concept explanation
 Step-by-step working
 Real-life examples
 Embedded video
+
 📖 Help Section
 Step-by-step usage guide
 Example workflow
+
 👨‍💻 Developed By Section
 Student details with images
 Faculty guide information
+
 🖥️ Technologies Used
 HTML5
 GitHub Pages
+
 ▶️ How to Run Locally
 Download or clone the repository
 Open index.html in any browser
+
 🌐 Deployment
 This project is deployed using GitHub Pages.
 
@@ -107,9 +113,7 @@ VIT Chennai
 📚 References
 Behrouz A. Forouzan
 Data Communications and Networking
-
 https://www.geeksforgeeks.org/multiple-access-techniques/
-
 https://www.tutorialspoint.com/computer_networks
 
 🎓 Academic Context
